@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    font-family: "Muli", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+i {
+    margin-top: 10px;
+}
+
+.counter {
+    margin-top: 20px;
+}
+
+.counter-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px red;
+    transition: all 3s ease;
+}
+
+.counter-div:hover {
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+    margin: 30px;
+    font-size: 50px;
+    box-shadow: 5px 5px 5px 5px black;
+    transition: all 2s;
+}
